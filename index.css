@@ -1,0 +1,133 @@
+body {
+    text-align: center;
+    background-color: #f3f041;
+  }
+  
+  .red {
+    padding: 15px 25px;
+    margin: 35px;
+    height: 100px;
+    width: 200px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(209, 104, 104);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(78, 35, 35);
+  }
+  
+  .red:hover {
+    background-color: red;
+  }
+  
+  .red:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .blue {
+    padding: 15px 25px;
+    font-size: 24px;
+    margin: 35px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(91, 91, 233);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(224, 223, 223);
+  }
+  
+  .blue:hover {
+    background-color: rgb(102, 102, 238);
+  }
+  
+  .blue:active {
+    background-color: rgb(52, 52, 122);
+    box-shadow: 0 5px rgb(48, 46, 46);
+    transform: translateY(4px);
+  }
+  
+  .green {
+    padding: 15px 25px;
+    font-size: 24px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(111, 241, 111);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .green:hover {
+    background-color: rgb(78, 177, 78);
+  }
+  
+  .green:active {
+    background-color: rgb(35, 105, 35);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .yellow {
+    padding: 15px 25px;
+    font-size: 24px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(170, 170, 86);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(65, 63, 63);
+  }
+  
+  .yellow:hover {
+    background-color: rgb(97, 97, 47);
+  }
+  
+  .yellow:active {
+    background-color: rgb(218, 218, 86);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .game-over {
+    background-color: rgb(12, 12, 12);
+    opacity: 0.8;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
